@@ -1,0 +1,7 @@
+clear
+reset
+as os os
+as xmas libc xmas
+ld os
+ld xmas
+break set TRAP_HALT
